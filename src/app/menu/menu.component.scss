@@ -1,35 +1,42 @@
 h6,ul{
-    background-color: #72083d;
+    background-color: none;
     text-size-adjust: 20%;
     border-radius: circle 5%;
     position: center;
-    contain: circle;
-    shape-outside: oval; 
+    contain: 100%; 
+    text-emphasis: center;
+    text-align: center;
 }
 ul{
-    border-style: inlet;
-    border-color: #000000;
+    border-style: 2px auto ;
+    border-color: navy;
+    border-style: none;
+    
 }
 li{
     display: inline-block;
     width: 20%;
-    background-color: blue($color: #000000);
-    float: none;
+    background-color: blue;
     font-family: sans-serif;
     line-height: 300%;
     margin: 0px;
     text-size-adjust: 250%;
-    text-decoration-style: initial ;
+    text-decoration-style: bold;
+    text-decoration-color: whitesmoke;
     text-emphasis-color: white;
     text-align: center;
-    contain: keywords;
-    margin: 0%;}
+    contain: auto;
+    margin: 0%;
+    font-size: 150%;
+    font-weight: bold;
+    border-style: plain;
+    text-overflow: 1px;}
 
 li:hover{
         background-color: pink;
         text-decoration: inlet;
-        font-weight: 20%;
-        font-family: italic;
+        font-weight: bold;
+        font-family: sans-serif;
         font-size: 150%;
         border-block-end-style: inlet;
     }
@@ -46,6 +53,6 @@ li:hover{
             -webkit-transform: scale(0.8);
             -ms-transform: scale(0.8);
             transform: scale(0.8);
-            text-overflow: pop}
+            text-overflow:1px;}
 
     
