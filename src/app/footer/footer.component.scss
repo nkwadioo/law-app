@@ -1,0 +1,129 @@
+.ftco-footer {
+    font-size: 16px;
+    background: black;
+    padding: 7em 0;
+    z-index: 0;
+}
+
+.ftco-footer .ftco-footer-logo {
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+
+.ftco-footer .ftco-footer-wigdet h2 {
+    font-weight: normal;
+    color: rgb(200, 213, 238);
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.ftco-footer .ftco-footer-wigdet ul li {
+    margin-bottom: 10px;
+}
+
+.ftco-footer .ftco-footer-wigdet ul li a {
+    color: darkcyan;
+}
+
+.ftco-footer .ftco-footer-wigdet ul li a span {
+    color: darkorange;
+}
+
+.ftco-footer .ftco-footer-wigdet .btn-primary {
+    background: cornflowerblue important;
+    border: 2px solid cornflowerblue important;
+}
+
+.ftco-footer .ftco-footer-wigdet .btn-primary:hover {
+    background: cornflowerblue;
+    border: 2px solid cornflowerblue important;
+}
+
+.ftco-footer p {
+    color: lightgray;
+}
+
+.ftco-footer a {
+    color: lightgray;
+
+}
+
+.ftco-footer a:hover{
+    color: cyan;
+}
+
+.ftco-footer .ftco-heading-2 {
+    align-items: left;
+    font-size: 30px;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.ftco-footer-social li {
+    list-style: none;
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+.ftco-footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: black;
+    border: 50%;
+    position: relative;
+}
+
+.ftco-footer-social li a span {
+    position: absolute;
+    font-size: 26px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.ftco-footer-social li a:hover {
+    color: rgb(121, 19, 218);
+}
+
+.footer-small-nav > li {
+    display: inline-block;
+}
+
+.footer-small-nav > li a {
+    margin: 0 10px 10px 0;
+}
+.footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
+    color: green;
+}
+
+.media .ftci-icon {
+    width: 100px;
+}
+
+.media .ftci-icon span {
+    color: indigo;
+}
+.ftco-footer ul li {
+    overflow: hidden;
+} 
+
+.ftco-footer h2 ul li {
+    font-size: medium;
+}
+
+.ftco-footer li span {
+ color: lightgrey; 
+}
+
+.ftco-footer h2{
+    font-size: xx-large;
+    color: white;
+}
+.ftco-footer li {
+    color: gray;
+}
