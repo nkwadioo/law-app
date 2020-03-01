@@ -1,0 +1,14 @@
+#nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#nav ul li {
+    min-width: 90px;
+    text-align: center;
+    background: rgb(92, 182, 212);
+    border-radius: 30px;
+    border: 2px darkslategrey lightgray;
+    transition: cubic-bezier(0.1, 0.7, 1.0,0.1);
+    transition-duration: 1s;
+}
