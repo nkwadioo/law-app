@@ -3,7 +3,22 @@ $base: #ffc31a;
 // palet
 $base-f1: #ffd253;
 $base-f2: #ffde81;
-$base-s1: #dbac2b;
+// $base-s1: #dbac2b;
+$base-s1: #bf9e3e;
+$base-s2: #a67d08;
+
 $alt: #2930b1;
-$alt-f1: #383c85;
-$alt-dark: #0d1273;
+$alt-f1: #5b62d8;
+$alt-22: #7d81d8;
+
+$alt-s1: #383c85;
+$alt-s2: #0d1273;
+
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
