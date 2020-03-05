@@ -211,14 +211,13 @@
 
 
 .controls .prev
-{
-  position: relative;
+{position: absolute;
   z-index: 5;
   top: 50%;
-  height: 40px;
+  height: 300px;
   width: 40px;
   margin-top: 20px;
-  margin-right: 10%;
+  margin-left: 10%;
   color: red($color: #000000);
   background-color: green($color: #000000);
   text-align: center;
@@ -235,13 +234,13 @@
 
 .controls .next 
 {
-  position: relative;
-  z-index: 2;
+  position: absolute;
+  z-index: 5;
   top: 50%;
   height: 40px;
   width: 40px;
   margin-top: 20px;
-  margin-left: 90%;
+  margin-left: 10%;
   color: red($color: #000000);
   background-color: green($color: #000000);
   text-align: center;
