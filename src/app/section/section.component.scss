@@ -1,6 +1,24 @@
-h3 {
-    font-size: large;
+.card{
+    font-size: medium;
+    padding-bottom: 10px;
 }
-// div.wrapper {
-    
-// }
+.row{
+  padding-top:0px ;  
+}
+.left{
+    padding-top: 10px;
+}
+
+.center{
+    padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.right {
+    padding-bottom: 15px;
+}
+
+p.card-text {
+    padding-bottom:0.8rem;
+    line-height: 1.2rem;
+}
