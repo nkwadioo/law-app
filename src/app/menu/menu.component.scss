@@ -69,6 +69,12 @@ li {
 //     text-overflow:1px;
 // }
 
+.menu {
+       position: sticky;
+     top: 0px;
+     z-index: 1;
+}
+
 nav {
   margin: 0 -15px;
 }

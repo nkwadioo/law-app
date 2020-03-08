@@ -49,10 +49,14 @@ background-repeat:no-repeat;
 form {
   background: $alt;
   padding: 30px 17px;
+  // position: sticky;
+  //   top: 53px;
+  //   z-index: 1;
 }
 .btn {
   background: $base;
   border: 4px solid $base;
+
 
   &:hover, &:active {
     background: $base-f1;

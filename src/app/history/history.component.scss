@@ -29,6 +29,7 @@
 .history {
   background-color: #96959247;
   padding: 10px 15px;
+  clear: both;
 
   span {
     color: $base-s1;
@@ -41,4 +42,10 @@ img {
 
 button {
   margin: 10px 0px;
+  float: right;
+
+  &:hover {
+    background-color: #ffd965;
+    border-color: #d7b03e;
+  }
 }

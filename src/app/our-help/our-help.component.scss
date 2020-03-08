@@ -10,9 +10,17 @@
   box-shadow: 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
 }
 
+.description {
+
+  .btn {
+    float: right;
+    font-variant: small-caps;
+  }
+}
+
 .outerWrapper {
   overflow-y: hidden;
-  max-height: 127px;
+  // max-height: 127px;
 }
 
 .icon_wrapper {
@@ -22,7 +30,7 @@
   // align-content: initial;
   grid-gap: 4px;
   // overflow-y: hidden;
-
+  overflow: hidden;
   .icons {
     display: flex;
     flex-direction: column;
@@ -76,7 +84,7 @@
 
 
 
-    &:hover p {
+    &:hover p, &.active p {
       // background: #007bff8a;
       position: relative;
 
